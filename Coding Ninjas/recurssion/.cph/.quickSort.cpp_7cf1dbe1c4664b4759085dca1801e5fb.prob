@@ -1,0 +1,1 @@
+{"name":"Local: quickSort","url":"/media/anshumantripathy/Anshu/Coding/C++/Coding Ninjas/recurssion/quickSort.cpp","tests":[{"id":1657364732570,"input":"4\n3 2 7 5","output":"2 3 5 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/anshumantripathy/Anshu/Coding/C++/Coding Ninjas/recurssion/quickSort.cpp","group":"local","local":true}
