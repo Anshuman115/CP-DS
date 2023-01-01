@@ -7,19 +7,15 @@ signed main() {
   ios::sync_with_stdio(false);
   cin.tie(NULL);
   cout.tie(NULL);
-  int m, n, a;
-  cin >> m >> n >> a;
-  int l = m / a;
-  if (m % a != 0) {
+  int n;
+  cin >> n;
+  vector<int> v(51);
+  v[1] = 0;
+  v[2] = 1;
+  for (int i = 3; i <= 50; i++) {
     /* code */
-    l++;
+    v[i] = v[i - 1] + v[i - 2];
   }
-  int z = n / a;
-  if (n % a != 0) {
-    /* code */
-    z++;
-  }
-
-  cout << l * z;
+  cout << v[n];
   return 0;
 }
